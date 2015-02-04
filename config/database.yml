@@ -1,0 +1,21 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: hurdit_dev
+  pool:     5
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: hurdit_test
+  pool:     5
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: hurdit
+  pool:     5
+  username: hurdit
